@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root {
+    --blue: #4B93BF;
+    --light-blue: #EAF2FD;
+
+    --letter-color-black: #464646;
+    --letter-color-white: #f5f5f5;
+
+    --inter: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--inter);
+
+    background-color: var(--blue);
+}
+
+body img {
+    object-fit: cover;
+}
+
+.subTitle {
+    font-size: 2.0625rem;
+    font-weight: 500;
+    line-height: 2.0625rem;
+}
+
+.paragraph {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+} 
+
+
+.figcaption {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+

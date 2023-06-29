@@ -1,0 +1,265 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.winter {
+    background-color: var(--light-blue);
+
+    height: 25vh;
+
+    margin-bottom: .5rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.winter div h2 {
+    color: var(--letter-color-black);
+
+    margin-top: 1rem;
+    margin-bottom: .9rem;
+
+    text-align: center;
+}
+
+.winter div p {
+    color: var(--letter-color-black);
+
+    margin-left: .5rem;
+
+    font-size: 2rem;
+    line-height: 2.0625rem;
+}
+
+.winterDescription {
+    width: 50%;
+}
+
+.winter__characteristics{
+    height: 37vh;
+
+    margin-left: 3%;
+}
+
+.winter__characteristics h2 {
+    color: var(--letter-color-white);
+
+    margin-top: 1rem;
+
+    text-align: start;
+}
+
+.winter__characteristics ul {
+    margin-left: 2rem;
+
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.winter__characteristics ul li {
+    color: var(--letter-color-white);
+
+    margin-top: .7rem;
+
+    list-style-type: disc;
+}
+
+.winter__north {
+    background-color: var(--light-blue);
+
+    height: 37vh;
+
+    margin-bottom: 1rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.winterNorthText {
+    width: 65vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.winterNorthText h2 {
+    color: var(--letter-color-black);
+
+    margin-bottom: 1rem;
+
+    text-align: start;
+}
+
+.winterNorthText p {
+    color: var(--letter-color-black);
+
+    padding-bottom: .5rem;
+}
+
+.winterNorthImg {
+    width: 20%;
+}
+
+.winterNorthImg img {
+    margin-top: 1rem;
+
+    width: 18vw;
+    height: 26vh;
+}
+
+.winterNorthImg figcaption {
+    color: var(--letter-color-black);
+
+    padding-top: .7rem;
+}
+
+.winter__south {
+    height: 37vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.winterSouthImg {
+    margin-top: 1rem;
+
+    width: 30%;
+}
+
+.winterSouthImg img {
+    width: 25vw;
+    height: 26vh;
+}
+
+.winterSouthImg figcaption {
+        color: var(--letter-color-white);
+        padding-top: .7rem;
+}
+
+.winterSouthText {
+    width: 60%;
+}
+
+.winterSouthText h2 {
+    color: var(--letter-color-white);
+
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+}
+
+.winterSouthText p {
+    color: var(--letter-color-white);
+
+    padding-bottom: .5rem;
+
+    align-items: center;
+}
+
+.winterSouthTextImg {
+    width: 57%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winter__brasil {
+    background-color: var(--light-blue);
+
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winter__brasil figure{
+    width: 25%;
+
+    margin-left: 1rem;
+}
+
+.winter__brasil figure img {
+    width: 23vw;
+    height: 30vh;
+}
+
+.winter__brasil figure figcaption {
+    color: var(--letter-color-black);
+    padding-top: .7rem;
+}
+
+.winter__brasil div {
+    width: 50%;
+}
+
+.winter__brasil div h2 {
+    color: var(--letter-color-black);
+
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+}
+
+.winter__brasil div p {
+    color: var(--letter-color-black);
+
+    max-width: 100%;
+
+    padding-bottom: .5rem;
+}
+
+.winter__impact {
+    height: 37vh;
+
+    margin-left: 3.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.winter__impact div h2 {
+    color: var(--letter-color-white);
+
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+}
+
+.winter__impact div p {
+    color: var(--letter-color-white);
+
+    width: 70%;
+
+    padding-bottom: .5rem;
+}
+
+.winter__impact ul li {
+    color: var(--letter-color-white);
+
+    list-style:disc ;
+}
+
+.winter__gallery {
+    background-color: var(--light-blue);
+
+    height: 50vh;
+}
+
+.winter__gallery figure {
+    margin-top: 4rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.winter__gallery figure img {
+    width: 23vw;
+    height: 37vh;
+}
